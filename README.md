@@ -31,8 +31,8 @@ This program requires the following dependencies:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/chisel-gui-manager.git
-   cd chisel-gui-manager
+   git clone https://github.com/RohanBhattacharyya/Chisel-GUI-Manager
+   cd Chisel-GUI-Manager
    ```
 
 2. **Install Python Dependencies**:
@@ -89,10 +89,10 @@ The application stores connection details and settings in a `config.json` file l
 
 ## Troubleshooting
 
-1. **QGuiApplication Not Defined**:
+1. **PySide6 is missing**:
    Ensure you have imported all necessary modules correctly. Specifically:
-   ```python
-   from PySide6.QtGui import QGuiApplication
+   ```bash
+   pip install -r requirements.txt
    ```
 
 2. **Chisel Not Found**:
