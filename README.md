@@ -42,7 +42,7 @@ This program requires the following dependencies:
    ```
 
 3. **Install Chisel**:
-   Follow the instructions [here](https://github.com/jpillora/chisel#installation) to install Chisel on your system.
+   Follow the instructions [here](https://github.com/jpillora/chisel?tab=readme-ov-file#install) to install Chisel on your system.
 
 4. **Run the Application**:
    ```bash
