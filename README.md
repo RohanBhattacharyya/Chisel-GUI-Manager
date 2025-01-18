@@ -22,10 +22,10 @@ Made with 90% AI, 10% human intervention.
 
 - **GUI for Chisel:** No more command-line hassle. Add, edit, and manage connections directly.
 - **Tray Integration:** Minimize the app to the system tray, and restore it with a double-click.
-- **[Planned] Connection Management:**
+- **Connection Management:**
   - Start and stop connections.
   - Save connection configurations for reuse.
-- **Settings:** Customize startup and shutdown behaviors.
+- **Settings:** [Planned] Customize startup and shutdown behaviors.
 
 ---
 
