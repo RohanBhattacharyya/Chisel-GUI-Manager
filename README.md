@@ -5,9 +5,12 @@ A GUI-based manager for handling and organizing **Chisel** connections. This app
 Made with 90% AI, 10% human intervention. 
 
 ---
+
 ## Star History
 
+
 [![Star History Chart](https://api.star-history.com/svg?repos=RohanBhattacharyya/Chisel-GUI-Manager&type=Date)](https://star-history.com/#RohanBhattacharyya/Chisel-GUI-Manager&Date)
+
 
 ---
 
