@@ -283,6 +283,9 @@ class MainWindow(QMainWindow):
         self.tray_icon.setContextMenu(tray_menu)
         self.tray_icon.activated.connect(self.on_tray_icon_activated)  # Connect the signal
         self.tray_icon.show()
+        self.status_timer = QTimer(self)
+        self.status_timer.timeout.connect(self.update_connection_status)
+        self.status_timer.start(1000)
 
     def on_tray_icon_activated(self, reason):
         """Handle tray icon activation."""
@@ -292,9 +295,7 @@ class MainWindow(QMainWindow):
             QGuiApplication.processEvents()  # Ensure the window is focused
 
         # Timer to check process status
-        self.status_timer = QTimer(self)
-        self.status_timer.timeout.connect(self.update_connection_status)
-        self.status_timer.start(1000)  # check every second
+          # check every second
 
     def render_connections(self):
         """Render the connections in the layout."""
